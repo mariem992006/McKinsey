@@ -1,0 +1,647 @@
+.bgnav{
+    background-color: #051C2C;
+}
+.frs{
+    color:white;
+    white-space: nowrap;
+}
+.frs:hover{
+    color: blue;
+    cursor: pointer;
+}
+.blu{
+    color:black;
+    transition: 0.3s;
+
+}
+.blu:hover{
+    color: blue;
+    transform:scale(1.01);
+    cursor: pointer;
+}
+.lin{
+    color:#6c757d;
+    text-decoration: none;
+
+}
+.lin:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.up{
+    white-space: nowrap; 
+    text-decoration: none;
+}
+.up:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.b{
+    background-color: #F0F0F0;
+    width: 400px;
+    height: 40px;
+}
+.frs{
+    text-decoration: none;
+}
+.frs:hover{
+    text-decoration: underline;
+}
+.sta{
+    background-color: #051C2C;
+}
+.arr{
+    width: 55px;
+    height: 55px;
+    border: 1px solid;
+    border-color: #8b8b8b;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+    transition: 0.3s;
+    font-size: 30px;
+    margin-left: 500px;
+}
+.arr:hover{
+    background: blue;
+}
+.fo{
+    font: "Cormorant Garamond", serif;
+    font-size: 55px;
+}
+.move{
+    margin-left: 120px;
+}
+.fpho img{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: -80px;
+    margin-left: 0px;
+}
+.fpho{
+    position: relative;
+    display: inline-block;
+    transition: 0.3s;
+}
+.fp{
+    position: absolute;
+    top: 200px;      
+    left: 30px;    
+    color: white;
+    text-align: left; 
+}
+.fpho:hover{
+    transform:scale(1.05);
+}
+.spho img{
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+.spho {
+    position: relative;
+    display: inline-block;
+    transition: 0.3s;
+}
+.spho:hover{
+    transform:scale(1.05);
+}
+.sp{
+    position: absolute;
+    top: 150px;      
+    left: 110px;    
+    color: white;
+    text-align: left; 
+}
+.tpho img{
+    width: 80%;
+    height: 120%;
+    object-fit: cover;
+    margin-left: 200px;
+}
+.tpho{
+    position: relative;
+    display: inline-block;
+    transition: 0.3s;
+}
+.tpho:hover{
+    transform:scale(1.05);
+}
+.tex{
+    position: absolute;
+    top: 30px;      
+    left: 230px;    
+    color: white;
+    text-align: left;
+}
+.bu{
+    position: absolute;
+    top: 500px;      
+    left: 230px;    
+    color: black;
+    text-align: left; 
+    transition: 0.3s;
+    border: none;
+}
+.bu:hover{
+    color:blue;
+    text-decoration: none;
+    transform:scale(1.05);
+    border: none;
+}
+.opho img{
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: -30px;
+    margin-left: 0px;
+}
+.opho{
+    position: relative;
+    display: inline-block;
+    transition: 0.3s;
+}
+.op{
+    position: absolute;
+    top: 170px;      
+    left: 30px;    
+    color: white;
+    text-align: left; 
+}
+.opho:hover{
+    transform:scale(1.05);
+}
+.ipho img{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: -100px;
+    margin-left: 115px;
+}
+.ipho{
+    position: relative;
+    display: inline-block;
+    transition: 0.3s;
+}
+.ip{
+    position: absolute;
+    top: 170px;      
+    left: 140px;    
+    color: white;
+    text-align: left; 
+}
+.ipho:hover{
+    transform:scale(1.05);
+}
+.mov{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.mov span{
+    margin-left: 100px;
+}
+.box{
+    margin-left: 700px;
+    margin-top: -380px;
+    background-color: #2A3E4B;
+    width: 600px;
+    height: 300px;
+    margin-left: 770px;
+
+}
+.ar{
+    width: 50px;
+    height: 40px;
+    background-color: #00A9F4;
+}
+.bx{
+    width: 400px;
+    height: 40px;
+    margin-left: 40px;
+}
+.st{
+    width: 150px;
+    color: white;
+}
+.en{
+    width: 150px;
+    color: white;
+}
+.con{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+.zo{
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+}
+.on{
+   color:white;
+   background: transparent;
+   transition: 0.3s;
+   border: solid 2px white;
+}
+.on:hover{
+    color: black;
+    background-color: white;
+    transform:scale(1.05);
+}
+.fixed-card{
+    position: fixed;
+    right: 20px;
+    top: 80%;
+    z-index: 9999;
+}
+
+.hover-card{
+    position: absolute;
+    right: 110%;
+    top: 0;
+    display: none;
+}
+.fixed-card:hover .hover-card{
+    display: block;
+}
+.sectow{
+    background-color: #051C2C;
+}
+.fut{
+    margin-left: 700px;
+}
+.bpho{
+    margin-top: 20px;
+}
+.bl{
+    position: absolute;
+    top: 80px;      
+    left: 200px;    
+    color: white;
+    text-align: left; 
+}
+.an{    
+    left: 300px;    
+    color: white;
+    text-align: left; 
+    text-decoration: none;
+}
+.an:hover{
+    text-decoration: underline;
+    border: none;
+}
+.b{
+    width: 400px;
+    height: 40px;
+}
+.su{
+    display: flex;
+    align-items: center;
+    
+}
+.subs{
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 40px;
+    width: 120px;
+    transition: 0.3s;
+}
+.subs:hover{
+    background-color: #00A9F4;
+    transform:scale(1.05);
+}
+.thir{
+    background: linear-gradient(to right, #042661, #0D36A2, #2150FD);
+    padding-left:100px ;
+    display: flex;
+    align-items: center;
+
+}
+.word span{
+    font-size: 60px;
+}
+.word{
+    font-size: 20px;
+}
+.lis{
+    margin-left: 1100px;
+    border: solid 2px white;
+    transition: 0.3s;
+    background-color: transparent;
+    color: white;
+    width: 200px;
+    height: 50px;
+    top:600px
+}
+.lis:hover{
+    background-color: white;
+    color: black;
+    transform:scale(1.05);
+}
+
+.soci{
+    display: flex;
+    gap: 25px;
+    margin-left: 100px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    transition: .3s;
+}
+
+.icon:hover{
+    transform: scale(1.08);
+    background: #00A9F4;
+}
+.cl{
+    background: linear-gradient(to right, #042661, #0D36A2, #2150FD);
+    padding-top: 60px;
+}
+.all{
+    background: linear-gradient(to right, #042661, #0D36A2, #2150FD);
+}
+
+.vid{
+    position: relative;
+}
+
+.vid-img{
+    width: 700px;
+    height: 600px;
+    display: block;
+    filter: brightness(60%);
+}
+
+.play-img{
+    position: absolute;
+    width: 100px; 
+    left: 320px;
+    top: 250px;
+}
+.arrowss{
+    position: absolute;
+    display: flex;
+    gap: 200px;
+    margin-top: -300px;   
+    margin-left: 210px;
+    cursor: pointer;
+}
+
+.arone{
+    width: 50px;
+    height: 50px;
+    color: white;
+    transition: .3s;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arone:hover{
+    color: #0056ff;
+}
+.arrtwo{
+    width: 50px;
+    height: 50px;
+    color: white;
+    transition: .3s;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrtwo:hover{
+    color: #0056ff;
+}
+.orr{
+    position: absolute;
+    width: 300px;
+    margin-left: 210px;
+    top: 380px; 
+    border-top: 3px solid white;
+    color: white;
+    opacity: 1;
+}
+.num{
+    position: absolute;
+    width: 300px;
+    margin-left: 520px;
+    top: 385px; 
+    color: white;
+    cursor: pointer;
+}
+.fi span{
+    color: #0056ff;
+    transition: .3;
+}
+.fi:hover{
+    color: #0056ff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.numtwo{
+    position: absolute;
+    width: 300px;
+    margin-left: 170px;
+    top: 385px; 
+    color: white;
+    cursor: pointer;
+}
+.sou{
+    position: absolute;
+    width: 20px;
+    margin-left: 580px;
+    top: 390px; 
+    cursor: pointer;
+}
+.topics{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.item{
+    width: 20%;
+    margin-left: 35px;
+}
+
+.line{
+    border: 0;
+    border-top: 6px solid #7d8ca8;
+    opacity: 1;
+    margin-bottom: 15px;
+}
+
+.active{
+    border-top: 6px solid #0078ff;
+}
+
+.item p{
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+.forth{
+    background-color: #051C2C;
+}
+.maintxt{
+    padding-top: 60px;
+}
+.texttitle{
+    font-size: 50px;
+}
+.mybody{
+    background-color: #051C2C;
+    color:white;
+    transition: 0.3s;
+}
+.mybody:hover{
+    background-color: white;
+    color:black;
+}
+.mycard{
+    border:none;
+    transition: 0.3s;
+}
+.mycard:hover{
+    border: solid 3px white;
+}
+.ct{
+    text-decoration:none ;
+}
+.ct:hover{
+    text-decoration:underline ;
+    color: #0056ff;
+}
+.ct span{
+    color: #0056ff;
+}
+.explore{
+    background-color: #0056ff;
+    color: white;
+    border: none;
+    transition: 0.3s;
+    width: 200px;
+    height: 40px;
+}
+.explore:hover{
+    background-color: white;
+    color: #0056ff;
+    border: 1px solid #0056ff;
+}
+.ima{
+    width: 600px;
+    height: 350px;
+    margin-left: 130px;
+    margin-top: 60px;
+}
+.vi{
+    position: absolute;
+    margin-left: -330px;
+    top:200px;
+    cursor: pointer;
+}
+.fifth{
+    background-color: #2251FF;
+}
+.mybo{
+    background-color: #2251FF;
+    color:white;
+    transition: 0.3s;
+}
+.mybo:hover{
+    background-color: white;
+    color:black;
+}
+.mycart{
+    border:none;
+    transition: 0.3s;
+}
+.mycart:hover{
+    border: solid 3px white;
+}
+.cf{
+    text-decoration:none ;
+}
+.cf:hover{
+    text-decoration:underline ;
+    color: #0056ff;
+    cursor: pointer;
+}
+.cf span{
+    color: white;
+}
+.whi{
+    background-color: white;
+}
+.ina{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.mar{
+    top:900px
+}
+.endti{
+    transition: 0.3s;
+}
+.endti:hover{
+    color: #0056ff;
+    cursor: pointer;
+}
+.lig{
+    background-color: #F0F0F0;
+}
+.lo{
+    width: 300px;
+}
+.link{
+    transition: 0.3s;
+    color: black;
+    text-decoration: none;
+}
+.link:hover{
+    color: #0056ff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.ma{
+    margin-top: 200px;
+}
+.subm{
+    background-color: #0056ff;
+    color: white;
+    border: none;
+    width: 100px;
+}
+.subm:hover{
+    background-color: white;
+    color: #0056ff;
+    border: #0056ff 1px solid;
+}
+.mii{
+    border-top:2px solid black ;
+}
+.store{
+    cursor: pointer;
+}
